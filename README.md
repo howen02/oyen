@@ -36,13 +36,13 @@
    ```bash
    pip install -r requirements.txt
    ```
-7) Startup backend server:
-   ```bash
-   cd backend && uvicorn main:app --reload
-   ```
-9) Startup frontend server in a separate terminal window:
+6) Startup frontend server:
    ```bash
    cd frontend && open app.html
+   ```
+7) Startup backend server:
+   ```bash
+   cd .. && cd backend && uvicorn main:app --reload
    ```
 
 You should now see this page
