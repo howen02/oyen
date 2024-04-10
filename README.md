@@ -37,9 +37,14 @@
    pip install -r requirements.txt
    ```
 6) Startup frontend server:
-   ```bash
-   cd frontend && open app.html
-   ```
+    - On macOS and Linux:
+        ```bash
+        cd frontend && open app.html
+        ```
+   - On Windows:
+     ```bash
+     cd frontend && app.html
+     ```
 7) Startup backend server:
    ```bash
    cd .. && cd backend && uvicorn main:app --reload
