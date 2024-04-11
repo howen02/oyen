@@ -1,4 +1,4 @@
-# Software Engineering Intern Assessment
+<img width="1457" alt="image" src="https://github.com/howen02/oyen/assets/108785851/107fbfe4-0372-4cdc-bd4f-b284a717716c"># Software Engineering Intern Assessment
 
 ## Setting up
 1) Clone the repository:
@@ -51,7 +51,7 @@
    ```
 
 You should now see this page
-![image](https://github.com/howen02/oyen/assets/108785851/7c04eb96-e527-41bf-93f6-197e2d62dde2)
+<img width="1457" alt="image" src="https://github.com/howen02/oyen/assets/108785851/094ba55e-60c7-4527-9ccb-eaee2b6dc72f">
 
 ## How it Works
 ### Signing Up
