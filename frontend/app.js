@@ -16,16 +16,20 @@ async function verifyTokenAndRedirect(token) {
             }
         );
 
-        if (validateResponse.ok) {
-            const jsonResponse = await validateResponse.json();
-            if (jsonResponse.valid) {
-                window.location.href = "home.html";
-            }
-        } else {
+        if (!validateResponse.ok) {
             console.error("Token validation failed, redirecting to login.");
             localStorage.clear();
             window.location.href = "app.html";
+            return;
         }
+
+        const jsonResponse = await validateResponse.json();
+
+        if (!jsonResponse.valid) {
+            return;
+        }
+
+        window.location.href = "home.html";
     } catch (error) {
         console.error("Error during token validation:", error);
     }
