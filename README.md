@@ -1,5 +1,3 @@
-<img width="1457" alt="image" src="https://github.com/howen02/oyen/assets/108785851/107fbfe4-0372-4cdc-bd4f-b284a717716c"># Software Engineering Intern Assessment
-
 ## Setting up
 1) Clone the repository:
    ```bash
